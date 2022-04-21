@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Hugo Serif Theme"
+title = "Dust Data Management"
 themesDir = "themes"
 theme = "hugo-serif-theme-master"
 
@@ -16,12 +16,12 @@ theme = "hugo-serif-theme-master"
 
   [params.homepage]
     show_contact_box = true # show / hide the contaxt box on the homepage
-    show_services_button = true  # show / hide the "view all services" button
+    show_services_button = false  # show / hide the "view all services" button
 
   [params.logo]
-    mobile = "images/logo/logo-mobile.svg"
+    mobile = "images/logo/ddm_logo_white_left.svg"
     mobile_height = "36px"
-    desktop = "images/logo/logo.svg"
+    desktop = "images/logo/ddm_logo_white_left.svg"
     desktop_height = "36px"
     alt = "Serif - A Hugo Business Theme"
 
@@ -51,15 +51,15 @@ theme = "hugo-serif-theme-master"
 
 [menu]
   # Main Menu
-  [[menu.main]]
-    name = "Services"
-    url = "/services/"
-      weight = 1
-
-  [[menu.main]]
-      name = "Projects"
-      url = "/projects/"
-      weight = 2
+  # [[menu.main]]
+  #   name = "Services"
+  #   url = "/services/"
+  #     weight = 1
+  #
+  # [[menu.main]]
+  #     name = "Projects"
+  #     url = "/projects/"
+  #     weight = 2
 
   [[menu.main]]
       name = "About"
